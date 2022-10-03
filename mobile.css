@@ -1,0 +1,36 @@
+#title{
+    text-align: center;
+
+}
+
+h1 {
+    font-size:1.7em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 100;
+}
+
+#minutes, #seconds, #tens {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+section {
+    height: 450px;
+    width: auto;
+    perspective: 1000px;
+}
+
+#card {
+    width: calc(33.3333% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
+    transition: transform 0.3s;
+}
+
+#card:active {
+    transform: scale(0.95);
+    transition: transform 1s;
+}
