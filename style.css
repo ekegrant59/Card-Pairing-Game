@@ -69,10 +69,12 @@ section {
     background: #1C7CCC;
     box-sizing: border-box;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 #front {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 #text1 {
@@ -97,3 +99,4 @@ section {
     padding: 10px 20px;
     background-color:rgb(140, 140, 245);
 }
+
